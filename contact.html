@@ -20,6 +20,31 @@
         <input type="email" id="email" required>
         <button type="submit">Enviar</button>
     </form>
+    <form id="contactForm" onsubmit="return sendMessage()">
+    <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea id="message" rows="4" required></textarea>
+    </div>
+    
+    <button type="submit">Enviar Mensaje</button>
+</form>
+
+<script>
+function sendMessage() {
+    alert('¡Mensaje enviado! Te contactaremos pronto.');
+    return false; // Previene el envío real del formulario
+}
+</script>
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
