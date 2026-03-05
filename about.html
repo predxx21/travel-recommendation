@@ -2,20 +2,163 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Acerca de</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros - Travel Recommendations</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="about.html" class="active">Acerca de</a></li>
             <li><a href="contact.html">Contacto</a></li>
         </ul>
     </nav>
 
-    <h1>Acerca de Nosotros</h1>
-    <p>Somos un equipo apasionado por los viajes. Queremos ayudarte a encontrar el destino perfecto.</p>
-    <p>Nuestro equipo está formado por expertos en viajes y tecnología.</p>
+    <main class="about-container">
+        <!-- Historia de la empresa (1 elemento) -->
+        <section class="about-section">
+            <h1>Acerca de Travel Recommendations</h1>
+            <p class="about-description">
+                Somos un equipo apasionado por los viajes. Queremos ayudarte a encontrar el destino perfecto 
+                para tus próximas vacaciones. Nuestra misión es hacer que la planificación de viajes sea 
+                fácil, emocionante y personalizada.
+            </p>
+        </section>
+
+        <!-- Nuestra Historia (2do elemento) -->
+        <section class="history-section">
+            <h2>Nuestra Historia</h2>
+            <p>
+                Travel Recommendations nació en 2024 de la idea de un grupo de viajeros frecuentes que 
+                querían compartir sus experiencias y ayudar a otros a descubrir destinos increíbles. 
+                Lo que comenzó como un blog personal, hoy es una plataforma que ayuda a miles de viajeros 
+                a planear sus aventuras.
+            </p>
+        </section>
+
+        <!-- Equipo de trabajo (3er elemento) -->
+        <section class="team-section">
+            <h2>Nuestro Equipo</h2>
+            <p class="team-intro">Conoce a las personas detrás de las recomendaciones</p>
+            
+            <div class="team-grid">
+                <!-- Miembro 1 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <!-- Puedes usar un placeholder de imagen o iniciales -->
+                        <div class="avatar-placeholder">👩‍💼</div>
+                    </div>
+                    <h3>María González</h3>
+                    <p class="member-role">Fundadora & CEO</p>
+                    <p class="member-bio">
+                        Viajera empedernida con más de 40 países visitados. 
+                        Su pasión es descubrir playas escondidas y compartirlas con el mundo.
+                    </p>
+                    <div class="member-social">
+                        <span>📧 maria@travelrec.com</span>
+                    </div>
+                </div>
+
+                <!-- Miembro 2 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">👨‍🏛</div>
+                    </div>
+                    <h3>Carlos Ruiz</h3>
+                    <p class="member-role">Especialista en Templos y Cultura</p>
+                    <p class="member-bio">
+                        Historiador y fotógrafo. Ha documentado más de 200 templos en 
+                        el sudeste asiático y siempre busca las historias detrás de cada piedra.
+                    </p>
+                    <div class="member-social">
+                        <span>📧 carlos@travelrec.com</span>
+                    </div>
+                </div>
+
+                <!-- Miembro 3 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">👩‍🌍</div>
+                    </div>
+                    <h3>Ana Martínez</h3>
+                    <p class="member-role">Especialista en Viajes por País</p>
+                    <p class="member-bio">
+                        Experta en viajes de larga duración. Ha vivido en 5 países diferentes 
+                        y conoce los mejores tips para viajar como local.
+                    </p>
+                    <div class="member-social">
+                        <span>📧 ana@travelrec.com</span>
+                    </div>
+                </div>
+
+                <!-- Miembro 4 (opcional pero suma valor) -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">👨‍💻</div>
+                    </div>
+                    <h3>David López</h3>
+                    <p class="member-role">Desarrollador Web</p>
+                    <p class="member-bio">
+                        El mago de la tecnología que hace posible que encuentres 
+                        las mejores recomendaciones con solo un clic.
+                    </p>
+                    <div class="member-social">
+                        <span>📧 david@travelrec.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valores de la empresa (4to elemento) -->
+        <section class="values-section">
+            <h2>Nuestros Valores</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <span class="value-icon">🌍</span>
+                    <h3>Pasión por Viajar</h3>
+                    <p>Vivimos y respiramos viajes. Cada recomendación viene de experiencias reales.</p>
+                </div>
+                <div class="value-item">
+                    <span class="value-icon">🤝</span>
+                    <h3>Honestidad</h3>
+                    <p>Recomendamos solo lugares que realmente valen la pena visitar.</p>
+                </div>
+                <div class="value-item">
+                    <span class="value-icon">💡</span>
+                    <h3>Innovación</h3>
+                    <p>Siempre buscando nuevas formas de mejorar tu experiencia de viaje.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estadísticas (5to elemento) -->
+        <section class="stats-section">
+            <h2>Travel Recommendations en Números</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">10,000+</span>
+                    <span class="stat-label">Viajeros ayudados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Destinos recomendados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5,000+</span>
+                    <span class="stat-label">Fotos compartidas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Soporte al viajero</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer opcional -->
+    <footer>
+        <p>&copy; 2024 Travel Recommendations - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
