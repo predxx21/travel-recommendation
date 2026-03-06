@@ -2,24 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Recomendaciones de Viaje</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- BARRA DE NAVEGACIÓN: ¡SOLUCIÓN! -->
     <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Acerca de</a></li>
-            <li><a href="contact.html">Contacto</a></li>
+        <div class="logo">
+            <h1>🌍 TravelRecommendations</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <input type="text" id="search" placeholder="Buscar...">
-        <button onclick="search()">Buscar</button>
+         <!-- Tu buscador existente debería ir aquí también -->
+         <!--
+         <div class="search-bar">
+             <input type="text" id="searchInput" placeholder="Busca un destino...">
+             <button id="searchButton">Buscar</button>
+             <button id="clearButton">Limpiar</button>
+         </div>
+         -->
     </nav>
 
-    <h1>Bienvenido a tu Guía de Viajes</h1>
-    <p>Descubre los mejores destinos: playas, templos y países.</p>
-
-    <div id="results"></div>
+    <!-- El resto de tu contenido: Home, introducción, etc. -->
 
     <script src="script.js"></script>
 </body>
